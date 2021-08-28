@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Digi-X Intern Assessment</title>
+</head>
+<body>
+    <div class="canvas">
+        <h1>Turn the light on and off </br>by clicking the bulb!</h1>
+        <div id="bulb" class="bulb-off" onclick="controller()"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyC7IxHi2Kd8eygRtyMffzDoBk-rlF9FYbU",
+      authDomain: "lightbulb-javascript-37ea2.firebaseapp.com",
+      projectId: "lightbulb-javascript-37ea2",
+      storageBucket: "lightbulb-javascript-37ea2.appspot.com",
+      messagingSenderId: "841336010239",
+      appId: "1:841336010239:web:1287f79bd0f4b829ebe3ca"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+  </script>
+</html>
